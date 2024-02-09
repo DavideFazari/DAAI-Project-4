@@ -11,3 +11,4 @@ For instructions, please refer to the README in each folder:
 * [createTrainIdLabelImgs](createTrainIdLabelImgs) Contains the function that allow to convert the polygonal annotations of the Cityscapes dataset to images, where pixel values encode ground truth classes.
 * [cityscapesScripts-master](cityscapesScripts-master) Contains the some scripts that were downloaded with the Cityscapes dataset.
 * [CITYSCAPES_DATASET](CITYSCAPES_DATASET) This folder is actually empty but should be filled with 2 folders: "leftImg8bit" and the "gtFine". The first contains the RGB images instead the second contains the labels. In this repository these 2 folders are not present because they are too heavy (11.6 Gb) and they contains too many elements to be uploaded here. 
+However the dataset can be download from the following link: https://www.cityscapes-dataset.com/
