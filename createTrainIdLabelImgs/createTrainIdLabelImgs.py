@@ -33,7 +33,7 @@ def main():
     if 'CITYSCAPES_DATASET' in os.environ:
         cityscapesPath = os.environ['CITYSCAPES_DATASET']
     else:
-        cityscapesPath = "C:\\Users\\39347\\Desktop\\Nuovacartella\\CITYSCAPES_DATASET"
+        cityscapesPath = "C:\\Users\\39347\\Desktop\\\DAAI_Project\\CITYSCAPES_DATASET"
         #cityscapesPath = os.path.join(os.path.dirname(os.path.realpath(__file__)))
     # how to search for all ground truth
 
