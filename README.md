@@ -8,7 +8,6 @@ For instructions, please refer to the README in each folder:
 * [eval](eval) contains tools for evaluating/visualizing the network's output and performing anomaly segmentation.
 * [imagenet](imagenet) Contains script and model for pretraining ERFNet's encoder in Imagenet.
 * [trained_models](trained_models) Contains the trained models used in the papers.
-* [createTrainIdLabelImgs](createTrainIdLabelImgs) Contains the function to convert the . 
-
+* [createTrainIdLabelImgs](createTrainIdLabelImgs) Contains the function that allow to convert the polygonal annotations of the Cityscapes dataset to images, where pixel values encode ground truth classes.
 
 * **The Cityscapes dataset**: Download the "leftImg8bit" for the RGB images and the "gtFine" for the labels. **Please note that for training you should use the "_labelTrainIds" and not the "_labelIds", you can download the [cityscapes scripts](https://github.com/mcordts/cityscapesScripts) and use the [conversor](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/preparation/createTrainIdLabelImgs.py) to generate trainIds from labelIds**
